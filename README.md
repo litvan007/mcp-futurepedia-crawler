@@ -28,7 +28,7 @@ Universal crawler:
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
-python -m futurepedia_mcp.server
+python -m universal_crawler_mcp.server
 ```
 
 The server runs over stdio (default MCP mode).
@@ -38,9 +38,9 @@ The server runs over stdio (default MCP mode).
 ```json
 {
   "mcpServers": {
-    "futurepedia": {
+    "universal-crawler": {
       "command": "python",
-      "args": ["-m", "futurepedia_mcp.server"],
+      "args": ["-m", "universal_crawler_mcp.server"],
       "cwd": "/absolute/path/to/mcp-universal-crawler"
     }
   }

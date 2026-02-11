@@ -1,7 +1,7 @@
 [project]
 name = "mcp-universal-crawler"
 version = "0.1.0"
-description = "MCP server exposing Futurepedia crawler tools"
+description = "MCP server exposing universal web/file crawler tools (plus optional Futurepedia helpers)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-futurepedia-mcp = "futurepedia_mcp.server:main"
+universal-crawler-mcp = "universal_crawler_mcp.server:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
